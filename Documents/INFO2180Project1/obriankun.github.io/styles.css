@@ -41,12 +41,12 @@
     display: grid;
     grid-template-rows: auto auto;
     grid-template-columns: auto;
-    box-sizing: border-box;
 }
 
 .main{
     border-style: solid;
     background-color: lightgray;
+    width: auto;
 
 }
 
@@ -56,7 +56,8 @@
     font-style: italic;
 }
 p{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Courier New', Courier, monospace;
+
 }
 
 
