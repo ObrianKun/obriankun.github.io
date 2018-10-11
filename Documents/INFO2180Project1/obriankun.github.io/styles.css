@@ -2,7 +2,7 @@
     display: grid;
     grid-template-rows: auto auto;
     grid-template-columns: auto auto;
-
+    box-sizing: border-box;
 }   
 
 .header{
@@ -14,37 +14,62 @@
     border-width: thick;
     border-color: black;
     background-color: teal;
-    width: 1260px;
-
+    width: auto;
+    box-sizing: border-box;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .round{ /* image style*/
     border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
+
 .contacts{
     border-bottom-style: solid;
+    
 }
 
 .sidebar{
-    border-style: solid;
+    border-style: groove;
     border-width: small;
-    border-color: black;
     background-color: lightgray;
-    width: auto;
+    width: 300px;
+    display: grid;
+    grid-template-rows: auto auto;
+    grid-template-columns: auto;
+    box-sizing: border-box;
+}
+
+.main{
+    border-style: solid;
+    background-color: lightgray;
 
 }
+
+.main h2{
+    display: flex;
+    justify-content: flex-start;
+    font-style: italic;
+}
+p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
 
 .bio, .work, .education,.skill{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;   
-    align-items: center;
-    border-bottom-style: dotted;    
-    border-right-style: solid;    
-    border-width: small;
-    border-color: black;
-    background-color: lightgray;
-    flex-wrap: wrap;
-    width: 1000px;
-
+    display: grid;
+    grid-template-rows: auto auto;
+    grid-template-columns: auto auto auto;
+    border-bottom-style: groove;
 }
+
+
+
+
+
+
+
